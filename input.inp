@@ -1,0 +1,24 @@
+!! Input Conditions !!
+
+$$ PDE TYPE         = burgers
+
+$$ INITIAL          = sine
+
+$$ BOUNDARY         = periodic
+
+$$ TIME INTEGRATION = 3
+
+$$ AREA             = 1.0
+
+$$ GRID SIZE        = 0.01
+
+$$ TARGET TIME      = 1.0
+
+$$ CFL              = 0.9
+
+$$ POLYNOMIAL ORDER = 3
+
+!! Options !!
+$$ advection, burger
+$$ square, halfdome, gauss, shock, expansion, sine
+$$ periodic, constant
